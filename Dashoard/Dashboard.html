@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="Bootstrap.min2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+        rel="stylesheet"
+      />
       
     <title>Dashboard</title>
 </head>
@@ -72,7 +76,7 @@
                   </span>
                 <h3>Announcements</h3>
               </a> 
-             <a href="#">
+             <!-- <a href="#">
                 <span class="material-icons">
                   feedback
                   </span>
@@ -83,7 +87,7 @@
                   settings
                   </span>
                 <h3>Settings</h3>
-              </a>
+              </a> -->
               <a href="#">
                 <span class="material-icons">
                   logout
@@ -94,24 +98,90 @@
            </aside>
            <main>
             <h1>Dashboard</h1>
-
-           <div  class="date"></div>
-           <input  type="date">
-          </div>
-          <div class="insights">
-            <div class="fee">
-              <span class="material-icons"> analytics</span>
-              <div class="middle">
-                <div class="left">
-                  <h3>total fee </h3>
-                  <h1>$234556</h1>
-
-                </div>
-
-              </div>
-              
+            <div class="date">
+              <input type="date" />
             </div>
-          </div>
+            <div class="insights">
+              <!-- Fees -->
+              <div class="fees">
+                <span class="material-icons-sharp"> analytics </span>
+                <div class="middle">
+                  <div class="left">
+                    <h3>Balance</h3>
+                    <h1>$75,474</h1>
+                  </div>
+                  <div class="progress">
+                    <svg>
+                      <circle cx="38" cy="38" r="36"></circle>
+                    </svg>
+                    <div class="number">
+                      <p>57%</p>
+                    </div>
+                  </div>
+                </div>
+                <small class="text-muted"> Spring 2020 </small>
+              </div>
+    
+              <!-- Expected to graduate -->
+              <div class="grad">
+                <span class="material-icons-sharp"> bar_chart </span>
+                <div class="middle">
+                  <div class="left">
+                    <h3>Graduiton</h3>
+                    <h1>70HR</h1>
+                  </div>
+                  <div class="progress">
+                    <svg>
+                      <circle cx="38" cy="38" r="36"></circle>
+                    </svg>
+                    <div class="number">
+                      <p>40%</p>
+                    </div>
+                  </div>
+                </div>
+                <small class="text-muted"> Expected to gradute 2024 </small>
+              </div>
+    
+              <!-- voulanteer -->
+              <div class="voul">
+                <span class="material-icons-sharp"> stacked_line_chart </span>
+                <div class="middle">
+                  <div class="left">
+                    <h3>voulanteer</h3>
+                    <h1>40Hr</h1>
+                  </div>
+                  <div class="progress">
+                    <svg>
+                      <circle cx="38" cy="38" r="36"></circle>
+                    </svg>
+                    <div class="number">
+                      <p>44%</p>
+                    </div>
+                  </div>
+                </div>
+                <small class="text-muted"> 20 Hours left </small>
+              </div>
+              <!-- <div class="class">
+                <h2>semster classes</h2>
+                <table id="class">
+                  <thead>
+                    <tr>
+                      <th>Course</th>
+                      <th>instructer</th>
+                      <th>Course id</th>
+                      <th>Days</th>
+                      <th></th>
+                    </tr>
+                  </thead> -->
+                
+               <!-- <tbody>
+                <td> Calculus</td>
+                <td>Dr george</td>
+                <td>SE392</td>
+                <tdj class=""warning">S..T</tdj>
+               </tbody> -->
+               
+              </table>
            </main>
 
      
