@@ -390,13 +390,13 @@ main .My-Classes a {
 }
 
 
-.right .preformance-analytics {
+.right .performance-analytics {
   margin-top: 2rem;
 }
-.right .preformance-analytics h2 {
+.right .performance-analytics h2 {
   margin-bottom: 0.8rem;
 }
-.right .preformance-analytics .item {
+.right .performance-analytics .item {
   background: var(--color-white);
   display: flex;
   align-items: center;
@@ -407,31 +407,31 @@ main .My-Classes a {
   box-shadow: var(--box-shadow);
   transition: all 300ms ease;
 }
-.right .sales-analytics .item:hover {
+.right .performance-analytics .item:hover {
   cursor: pointer;
   box-shadow: none;
 }
-.right .preformance-analytics .item .right {
+.right .performance-analytics .item .right {
   display: flex;
   justify-content: space-between;
   align-items: start;
   margin: 0;
   width: 100%;
 }
-.right .preformance-analytics .item .icon {
+.right .performance-analytics .item .icon {
   padding: 0.6rem;
   color: var(--color-white);
   border-radius: 50%;
   background: var(--color-primary);
   display: flex;
 }
-.right .preformance-analytics .item.offline .icon {
+.right .performance-analytics .item.offline .icon {
   background: var(--color-danger);
 }
-.right .preformance-analytics .item.customers .icon {
+.right .performance-analytics .item.customers .icon {
   background: var(--color-success);
 }
-.right .preformance-analytics .add-product {
+.right .performance-analytics .add-product {
   background: transparent;
   border: 2px dashed var(--color-primary);
   color: var(--color-primary);
@@ -439,17 +439,111 @@ main .My-Classes a {
   align-items: center;
   justify-content: center;
 }
-.right .preformance-analytics .add-product:hover {
+.right .performance-analytics .add-product:hover {
   background: var(--color-primary);
   color: white;
 }
-.right .preformance-analytics .add-product div {
+.right .performance-analytics .add-product div {
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
-.right .preformance-analytics .add-product h3 {
+.right .performance-analytics .add-product h3 {
   font-weight: 600;
 }
 
 /**************responsive partie*************/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  aside {
+    position: fixed;
+    left: -100%;
+    background: var(--color-white);
+    width: 18rem;
+    z-index: 3;
+    box-shadow: 1rem 3rem 4rem var(--color-light);
+    height: 100vh;
+    padding-right: var(--card-padding);
+    display: none;
+    animation: showMenu 400ms ease forwards;
+  }
+  @keyframes showMenu {
+    to {
+      left: 0;
+    }
+  }
+  aside .logo {
+    margin-left: 1rem;
+  }
+  aside .logo h2 {
+    display: inline;
+  }
+  aside .sidebar h3 {
+    display: inline;
+  }
+  aside .sidebar a {
+    width: 100%;
+    height: 3.4rem;
+  }
+  aside .sidebar a:last-child {
+    position: absolute;
+    bottom: 5rem;
+  }
+  aside .close {
+    display: inline-block;
+    cursor: pointer;
+  }
+  main {
+    margin-top: 8rem;
+    padding: 0 1rem;
+  }
+  main .recent-orders {
+    position: relative;
+    margin: 3rem 0 0 0;
+    width: 100%;
+  }
+  main .recent-orders table {
+    width: 100%;
+    margin: 0;
+  }
+  .right {
+    width: 94%;
+    margin: 0 auto 4rem;
+  }
+  .right .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 0 0.8rem;
+    height: 4.6rem;
+    background: var(--color-white);
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+    box-shadow: 0 1rem 1rem var(--color-light);
+  }
+  .right .top .theme-toggler {
+    width: 4.4rem;
+    position: absolute;
+    left: 66%;
+  }
+  .right .top .profile .info {
+    display: none;
+  }
+  .right .top button {
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-dark);
+    position: absolute;
+    left: 1rem;
+  }
+  .right .top button span {
+    font-size: 2rem;
+  }
+}
+/* END MEDIA QUERIES */

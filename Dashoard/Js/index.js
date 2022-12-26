@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     .appendChild(buildUpdatesList());
 
   // PREFORMANCE
-  const Preformanceanalytics = document.getElementById("analytics");
-  buildPreformancAnalytics(Preformanceanalytics);
+  const performanceAnalytics = document.getElementById("analytics");
+  buildPerformancecAnalytics(performanceAnalytics);
 });
 
 // Document Builder
@@ -64,10 +64,10 @@ const buildUpdatesList = () => {
   return div;
 };
 
-const buildPreformancAnalytics = (element) => {
-  const preformAnalyticsData = PREFORMANCE_ANALYTICS_DATA;
+const buildPerformancecAnalytics = (element) => {
+  const performanceAnalyticsData = PERFORMANCE_ANALYTICS_DATA;
 
-  for (const analytic of  preformAnalyticsData) {
+  for (const analytic of  performanceAnalyticsData) {
     const item = document.createElement("div");
     item.classList.add("item");
     item.classList.add(analytic.itemClass);
@@ -92,13 +92,13 @@ const buildPreformancAnalytics = (element) => {
   }
 };
 
-// Document operation functions
+//  operation functions
 const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
 const themeToggler = document.querySelector(".theme-toggler");
 
-// Show Sidebar
+// Show Sidebar  
 menuBtn.addEventListener("click", () => {
   sideMenu.style.display = "block";
 });
@@ -108,7 +108,7 @@ closeBtn.addEventListener("click", () => {
   sideMenu.style.display = "none";
 });
 
-// Change Theme
+// Dark mode
 themeToggler.addEventListener("click", () => {
   document.body.classList.toggle("dark-theme-variables");
 
