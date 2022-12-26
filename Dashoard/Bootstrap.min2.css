@@ -14,6 +14,7 @@
   --color-primary-variant: #111e88;
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
+  --color-performance-icon: #677467;
 
   --card-border-radius: 2rem;
   --border-radius-1: 0.4rem;
@@ -425,10 +426,10 @@ main .My-Classes a {
   background: var(--color-primary);
   display: flex;
 }
-.right .performance-analytics .item.offline .icon {
-  background: var(--color-danger);
+.right .performance-analytics .item.Attendence .icon {
+  background: var(--color-performance-icon);
 }
-.right .performance-analytics .item.customers .icon {
+.right .performance-analytics .item.GPA .icon {
   background: var(--color-success);
 }
 .right .performance-analytics .add-product {

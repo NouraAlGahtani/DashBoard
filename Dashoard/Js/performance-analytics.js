@@ -1,26 +1,26 @@
 const PERFORMANCE_ANALYTICS_DATA = [
     {
-        itemClass: "online",
+        itemClass: "evaulation",
         icon: "person",
         title: "evaulation",
         colorClass: "success",
         percentage: "+39",
-        sales: "Good",
+        comment: "Good",
       },
       {
-        itemClass: "offline",
+        itemClass: "Attendence",
         icon: "done",
         title: "Attendence",
         colorClass: "danger",
         percentage: "-17",
-        sales: "Absent total (4)",
+        comment: "Absent total (4)",
       },
       {
-        itemClass: "customers",
+        itemClass: "GPA",
         icon: "grade",
         title: "GPA",
-        colorClass: "danger",
+        colorClass: "success",
         percentage: "+25",
-        sales: "4.56 ^",
+        comment: "4.56 ^",
     },
 ];

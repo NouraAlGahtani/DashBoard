@@ -54,19 +54,6 @@ const RECENT_CLASS_DATA = [
     status: "Days",
 
   },
-  // {
-  //   productName: "TEXT",
-  //   productNumber: "NAME",
-  //   payment: "CLASSNUM",
-  //   status: "Days",
-
-  // },
-  // {
-  //   productName: "TEXT",
-  //   productNumber: "NAME",
-  //   payment: "CLASSNUM",
-  //   status: "Days",
-
-  // },
+ 
    
 ];

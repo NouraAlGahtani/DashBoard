@@ -82,7 +82,7 @@ const buildPerformancecAnalytics = (element) => {
           <small class="text-muted"> Last 24 Hours </small>
         </div>
         <h5 class="${analytic.colorClass}">${analytic.percentage}%</h5>
-        <h3>${analytic.sales}</h3>
+        <h3>${analytic.comment}</h3>
       </div>
     `;
 
