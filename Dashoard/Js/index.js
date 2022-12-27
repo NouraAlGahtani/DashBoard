@@ -24,10 +24,10 @@ const buildTableBody = () => {
   for (const row of recentClassData) {
     bodyContent += `
       <tr>
-        <td>${row.productName}</td>
-        <td>${row.productNumber}</td>
-        <td>${row.payment}</td>
-        <td class="${row.statusColor}">${row.status}</td>
+        <td>${row.className}</td>
+        <td>${row.DrName}</td>
+        <td>${row.classNum}</td>
+        <td class="${row.daysColor}">${row.days}</td>
         <td class="primary">Details</td>
       </tr>
     `;

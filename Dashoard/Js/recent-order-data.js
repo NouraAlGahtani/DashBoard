@@ -1,59 +1,48 @@
 const RECENT_CLASS_DATA = [
-  // {
-  //   productName: "Intro software engineering",
-  //   productNumber: "Dr amal",
-  //   payment: "SE392",
-  //   status: "S..TW",
-   
-  // },
+
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
   },
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
   },
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
-
-  },{
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
   },
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
   },
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
   },
   {
-    productName: "TEXT",
-    productNumber: "NAME",
-    payment: "CLASSNUM",
-    status: "Days",
+    className: "TEXT",
+    DrName: "NAME",
+    classNum: "CLASSNUM",
+    days: "Days",
 
-  },
+  }
+  ,
  
    
 ];
